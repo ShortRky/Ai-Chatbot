@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Space Journey</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="theme-color" content="#000011">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    <div class="clouds"></div>
+    
+    <nav class="navigation">
+        <div class="nav-container">
+            <div class="logo">SPACE</div>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home" data-section="home">Home</a></li>
+                <li><a href="#mission" data-section="mission">Mission</a></li>
+                <li><a href="#explore" data-section="explore">Explore</a></li>
+                <li><a href="#discover" data-section="discover">Discover</a></li>
+                <li><a href="#future" data-section="future">Future</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section id="home" class="hero-section" data-section="hero">
+            <div class="content-wrapper">
+                <h1 class="hero-title">Journey Through The Cosmos</h1>
+                <p class="hero-subtitle">Explore the infinite wonders of space and time</p>
+                <div class="scroll-indicator">
+                    <div class="scroll-arrow"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="mission" class="content-section" data-section="mission">
+            <div class="section-content">
+                <h2 class="section-title">Our Mission</h2>
+                <div class="text-content">
+                    <p>We are pioneers in space exploration, pushing the boundaries of human knowledge and understanding. Our mission is to unravel the mysteries of the universe and bring the wonders of space closer to humanity.</p>
+                    <p>Through cutting-edge technology and relentless curiosity, we venture into the unknown, discovering new worlds and expanding our cosmic perspective.</p>
+                </div>
+                <div class="floating-elements">
+                    <div class="planet planet-1"></div>
+                    <div class="planet planet-2"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="explore" class="content-section" data-section="explore">
+            <div class="section-content">
+                <h2 class="section-title">Explore The Unknown</h2>
+                <div class="text-content">
+                    <p>Every star tells a story, every galaxy holds secrets waiting to be discovered. Our exploration programs dive deep into the cosmic ocean, mapping distant worlds and studying celestial phenomena.</p>
+                    <p>From the birth of stars in stellar nurseries to the death throes of supernovae, we document the incredible lifecycle of cosmic entities that shape our universe.</p>
+                </div>
+                <div class="nebula-bg"></div>
+            </div>
+        </section>
+
+        <section id="discover" class="content-section" data-section="discover">
+            <div class="section-content">
+                <h2 class="section-title">Discover New Worlds</h2>
+                <div class="text-content">
+                    <p>Exoplanets orbiting distant stars, alien landscapes beyond imagination, and the possibility of life elsewhere in the cosmos drive our discovery missions.</p>
+                    <p>Each discovery reshapes our understanding of planetary systems and brings us closer to answering humanity's eternal question: Are we alone in the universe?</p>
+                </div>
+                <div class="asteroid-field"></div>
+            </div>
+        </section>
+
+        <section id="future" class="content-section" data-section="future">
+            <div class="section-content">
+                <h2 class="section-title">The Future Awaits</h2>
+                <div class="text-content">
+                    <p>As we stand on the precipice of becoming an interplanetary species, the future of space exploration has never been more exciting. Mars colonies, asteroid mining, and interstellar travel are no longer science fiction.</p>
+                    <p>The next chapter of human history will be written among the stars, and we invite you to be part of this incredible journey into the cosmic frontier.</p>
+                </div>
+                <div class="wormhole"></div>
+            </div>
+        </section>
+
+        <section class="final-section" data-section="final">
+            <div class="thank-you-container">
+                <h1 class="thank-you-text">Thank You</h1>
+                <p class="thank-you-subtitle">For joining us on this cosmic journey</p>
+                <div class="constellation"></div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
